@@ -10,6 +10,7 @@ export default function Card(props) {
         onChange={props.onChange}
         value={props.value}
         className='form-control'
+        ref={props.reference}
       />
     </p>
   );
